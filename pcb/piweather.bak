@@ -59,29 +59,66 @@ F 3 "~" H 800 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x10 J1
-U 1 1 5D9BBCFA
-P 14500 1850
-F 0 "J1" H 14580 1842 50  0000 L CNN
-F 1 "Screw_Terminal_01x10" H 14580 1751 50  0000 L CNN
-F 2 "Main:Terminal_block_OSTVN10A150" H 14500 1850 50  0001 C CNN
-F 3 "~" H 14500 1850 50  0001 C CNN
-F 4 "On Shore Technology Inc." H 14500 1850 50  0001 C CNN "Manufacturer"
-F 5 "OSTVN10A150" H 14500 1850 50  0001 C CNN "MPN"
-	1    14500 1850
+L Connector:Conn_01x08_Male J2
+U 1 1 5D9BE108
+P 15050 3100
+F 0 "J2" H 15023 3073 50  0000 R CNN
+F 1 "Conn_01x08_Male" H 15023 2982 50  0000 R CNN
+F 2 "Main:PICOBLADE_FEMALE_8" H 15050 3100 50  0001 C CNN
+F 3 "~" H 15050 3100 50  0001 C CNN
+F 4 "Molex" H 15050 3100 50  0001 C CNN "Manufacturer"
+F 5 "0530480810" H 15050 3100 50  0001 C CNN "MPN"
+	1    15050 3100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5D9CB81D
+P 15050 1100
+F 0 "J3" H 15130 1092 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 15130 1001 50  0000 L CNN
+F 2 "Main:TerminalBlock_1X2_P5.08mm" H 15050 1100 50  0001 C CNN
+F 3 "~" H 15050 1100 50  0001 C CNN
+F 4 "Phoenix Contact" H 15050 1100 50  0001 C CNN "Manufacturer"
+F 5 "1715721" H 15050 1100 50  0001 C CNN "MPN"
+	1    15050 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x08_Male J?
-U 1 1 5D9BE108
-P 14500 3350
-F 0 "J?" H 14473 3323 50  0000 R CNN
-F 1 "Conn_01x08_Male" H 14473 3232 50  0000 R CNN
-F 2 "Main:PICOBLADE_FEMALE_8" H 14500 3350 50  0001 C CNN
-F 3 "~" H 14500 3350 50  0001 C CNN
-F 4 "Molex" H 14500 3350 50  0001 C CNN "Manufacturer"
-F 5 "0530480810" H 14500 3350 50  0001 C CNN "MPN"
-	1    14500 3350
-	-1   0    0    -1  
+L Connector:Screw_Terminal_01x08 J1
+U 1 1 5D9CBBE8
+P 15050 1850
+F 0 "J1" H 15130 1842 50  0000 L CNN
+F 1 "Screw_Terminal_01x08" H 15130 1751 50  0000 L CNN
+F 2 "Main:Terminal_block_OSTVN08A150" H 15050 1850 50  0001 C CNN
+F 3 "~" H 15050 1850 50  0001 C CNN
+F 4 "On Shore Technology Inc." H 15050 1850 50  0001 C CNN "Manufacturer"
+F 5 "OSTVN08A150" H 15050 1850 50  0001 C CNN "MPN"
+	1    15050 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Raspberry_Pi_2_3 J4
+U 1 1 5D9CE7F8
+P 11200 5600
+F 0 "J4" H 11200 7078 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 11200 6987 50  0000 C CNN
+F 2 "Main:RPi_2x20_SMT" H 11200 5600 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 11200 5600 50  0001 C CNN
+F 4 "Harwin Inc." H 11200 5600 50  0001 C CNN "Manufacturer"
+F 5 "M20-7812045R" H 11200 5600 50  0001 C CNN "MPN"
+	1    11200 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_USB:FT2232D U1
+U 1 1 5D9CF0E5
+P 4500 4900
+F 0 "U1" H 4500 6978 50  0000 C CNN
+F 1 "FT2232D" H 4500 6887 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 4500 4900 50  0001 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232D.pdf" H 4500 4900 50  0001 C CNN
+	1    4500 4900
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
