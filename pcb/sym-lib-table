@@ -13,4 +13,5 @@
   (lib (name res_smd)(type Legacy)(uri ${MYGIT}/KiCADLibs/sch/res_smd.lib)(options "")(descr ""))
   (lib (name cap_smd_extra)(type Legacy)(uri ${MYGIT}/KiCADLibs/sch/cap_smd_extra.lib)(options "")(descr ""))
   (lib (name res_smd_extra)(type Legacy)(uri ${MYGIT}/KiCADLibs/sch/res_smd_extra.lib)(options "")(descr ""))
+  (lib (name piweather-rescue)(type Legacy)(uri ${KIPRJMOD}/piweather-rescue.lib)(options "")(descr ""))
 )
