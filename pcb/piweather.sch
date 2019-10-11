@@ -157,19 +157,6 @@ F 3 "https://www.silabs.com/documents/public/data-sheets/Si7020-A20.pdf" H 10800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x03 J3
-U 1 1 5D9E5750
-P 15050 1100
-F 0 "J3" H 15130 1142 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 15130 1051 50  0000 L CNN
-F 2 "Main:TerminalBlock_1X3_P5.08mm" H 15050 1100 50  0001 C CNN
-F 3 "~" H 15050 1100 50  0001 C CNN
-F 4 "Phoenix Contact" H 15050 1100 50  0001 C CNN "Manufacturer"
-F 5 "1715734" H 15050 1100 50  0001 C CNN "MPN"
-	1    15050 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x10 J1
 U 1 1 5D9E7CDE
 P 15050 1950
@@ -188,20 +175,11 @@ U 1 1 5D9E855A
 P 15050 4250
 F 0 "J6" H 15023 4273 50  0000 R CNN
 F 1 "Conn_01x01_Male" H 15023 4182 50  0000 R CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 15050 4250 50  0001 C CNN
+F 2 "Main:POGOPIN_5mm_P70-2300045R" H 15050 4250 50  0001 C CNN
 F 3 "~" H 15050 4250 50  0001 C CNN
+F 4 "Harwin Inc." H 15050 4250 50  0001 C CNN "Manufacturer"
+F 5 "P70-2300045R" H 15050 4250 50  0001 C CNN "MPN"
 	1    15050 4250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J7
-U 1 1 5D9E87D0
-P 15050 4450
-F 0 "J7" H 15023 4473 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 15023 4382 50  0000 R CNN
-F 2 "" H 15050 4450 50  0001 C CNN
-F 3 "~" H 15050 4450 50  0001 C CNN
-	1    15050 4450
 	-1   0    0    -1  
 $EndComp
 Text Notes 14100 1150 0    60   ~ 0
@@ -210,28 +188,6 @@ Text Notes 14150 2000 0    60   ~ 0
 IO Connector
 Text Notes 13450 3350 0    60   ~ 0
 Honeywell UART Connector
-$Comp
-L Connector:Conn_01x01_Male J8
-U 1 1 5D9E8EE7
-P 15050 4650
-F 0 "J8" H 15023 4673 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 15023 4582 50  0000 R CNN
-F 2 "" H 15050 4650 50  0001 C CNN
-F 3 "~" H 15050 4650 50  0001 C CNN
-	1    15050 4650
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Male J9
-U 1 1 5D9E8F21
-P 15050 4850
-F 0 "J9" H 15023 4873 50  0000 R CNN
-F 1 "Conn_01x01_Male" H 15023 4782 50  0000 R CNN
-F 2 "" H 15050 4850 50  0001 C CNN
-F 3 "~" H 15050 4850 50  0001 C CNN
-	1    15050 4850
-	-1   0    0    -1  
-$EndComp
 Text Notes 14300 4600 0    60   ~ 0
 Pogo pins
 $Comp
@@ -291,5 +247,57 @@ F 4 "Schurter Inc." H 13150 1350 50  0001 C CNN "Manufacturer"
 F 5 "4300.0104" H 13150 1350 50  0001 C CNN "MPN"
 	1    13150 1350
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J3
+U 1 1 5DA00852
+P 15050 1050
+F 0 "J3" H 15130 1042 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 15130 951 50  0000 L CNN
+F 2 "Main:TerminalBlock_1X2_P5.08mm" H 15050 1050 50  0001 C CNN
+F 3 "~" H 15050 1050 50  0001 C CNN
+F 4 "Phoenix Contact" H 15050 1050 50  0001 C CNN "Manufacturer"
+F 5 "1715721" H 15050 1050 50  0001 C CNN "MPN"
+	1    15050 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J7
+U 1 1 5DA01EA6
+P 15050 4450
+F 0 "J7" H 15023 4473 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 15023 4382 50  0000 R CNN
+F 2 "Main:POGOPIN_5mm_P70-2300045R" H 15050 4450 50  0001 C CNN
+F 3 "~" H 15050 4450 50  0001 C CNN
+F 4 "Harwin Inc." H 15050 4450 50  0001 C CNN "Manufacturer"
+F 5 "P70-2300045R" H 15050 4450 50  0001 C CNN "MPN"
+	1    15050 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J8
+U 1 1 5DA01EE6
+P 15050 4650
+F 0 "J8" H 15023 4673 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 15023 4582 50  0000 R CNN
+F 2 "Main:POGOPIN_5mm_P70-2300045R" H 15050 4650 50  0001 C CNN
+F 3 "~" H 15050 4650 50  0001 C CNN
+F 4 "Harwin Inc." H 15050 4650 50  0001 C CNN "Manufacturer"
+F 5 "P70-2300045R" H 15050 4650 50  0001 C CNN "MPN"
+	1    15050 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J9
+U 1 1 5DA01F28
+P 15050 4850
+F 0 "J9" H 15023 4873 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 15023 4782 50  0000 R CNN
+F 2 "Main:POGOPIN_5mm_P70-2300045R" H 15050 4850 50  0001 C CNN
+F 3 "~" H 15050 4850 50  0001 C CNN
+F 4 "Harwin Inc." H 15050 4850 50  0001 C CNN "Manufacturer"
+F 5 "P70-2300045R" H 15050 4850 50  0001 C CNN "MPN"
+	1    15050 4850
+	-1   0    0    -1  
 $EndComp
 $EndSCHEMATC
