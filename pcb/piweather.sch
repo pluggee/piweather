@@ -821,4 +821,14 @@ Wire Wire Line
 	5700 7950 5700 9000
 Wire Wire Line
 	5700 9000 5100 9000
+Text Label 5150 7500 0    39   ~ 0
+P2_D
+Text Label 3050 8600 0    39   ~ 0
+EEDATA
+Text Label 5150 7600 0    39   ~ 0
+P2_R
+Text Label 5150 9000 0    39   ~ 0
+P2_~RE
+Text Label 5150 8400 0    39   ~ 0
+P_DE
 $EndSCHEMATC
